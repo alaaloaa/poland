@@ -44,6 +44,11 @@ $(document).ready(function() {
 	  $(".sidebar").toggle()
 	});
 
+
+
+
+
 })
-
-
+	$(window).on('load',function(){
+      $('html, body').scrollTop(0);
+    });

@@ -1,4 +1,4 @@
-'use strict';
+
 
 function Router(routes) {
     try {
@@ -58,8 +58,12 @@ Router.prototype = {
             xhttp.send();
         })(this);
 
-        $('html, body').animate({
+        setTimeout(function(){ 
+          $('html, body').animate({
             scrollTop: 0
-        });
+          });
+        }, 100);
+
+       
     }
 };
