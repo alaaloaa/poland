@@ -563,6 +563,7 @@ img {
 
   .header .bg{
     background-position: 0px 30px;
+    background-size: cover !important
   }
 
   .header {
